@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		background-image:url(trap.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		text-align:center;
+	}
+	
+	#conteudo{
+		width:600px;
+		margin:auto;
+		background-color:#CCC;
+		text-align:center;
+		padding:20px;
+		opacity:0.9;
+	}
+	h1{
+		text-align:center;
+		font-size:100px;
+		font-family: 'Permanent Marker', cursive;
+		color:#FFF;
+	}
+	h3{
+		text-align:center;
+		font-family: 'Fira Sans Condensed', sans-serif;
+		color:#FFF;
+		font-size:20px;
+	}
+
+

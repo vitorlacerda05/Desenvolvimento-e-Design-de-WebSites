@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(fundo_padrao.png);
+}
+
+h1{
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+h2{
+	color:#FF0;
+	font-family:Georgia, "Times New Roman", Times, serif
+}
+
+p{
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	text-indent:50px;
+	text-align:justify;
+}
+
+ul{
+	list-style-image:url(setinha.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
