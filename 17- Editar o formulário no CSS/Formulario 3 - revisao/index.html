@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Site</title>
+	<link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="banner">
+    <fieldset>
+    <form>
+    	<p><input type="radio" name="viajem" value="ida">Somente ida
+        <input type="radio" name="viajem" value="idavolta">Ida e volta</p>
+        
+        <p><label>Origem</label><input type="text" name="origem" placeholder="Cidade de Origem">
+        <label>Destino</label><input type="text" name="destino" placeholder="Cidade de Destino"></p>
+        
+        <p><label>Data da ida</label><input type="text" name="datadaida">
+        <label>Data da volta</label><input type="text" name="datadavolta"></p>
+        
+        <p>Adultos <select name="adultos">
+        	<option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        
+        Crianças <select name="criancas">
+        	<option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select></p>
+        
+        	<p><input type="submit" class="btn" name="BtnBuscar" value="Buscar"></p>
+        </form>
+    	</fieldset>
+    	</div>
+        
+    <div class="destino">
+    	<p><h2>Promoções</h2></p>
+        <table>
+        	<tr>
+            	<td><img src="beto.png"></td>
+                <td><img src="caribe.png"></td>
+                <td><img src="nordeste.png"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

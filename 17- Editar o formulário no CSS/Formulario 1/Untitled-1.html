@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		body{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:12px;
+		}
+		fieldset{
+			width:1000px;
+			margin: 0 auto;
+		}
+		
+		legend {
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:18px;
+		}
+		
+		label {
+			display:inline-block;
+			width:120px;
+		}
+		
+		input[type=text]{
+			background-color:#CCC;
+			border:1px solid #000;
+			padding:1px;
+		}
+		
+		textarea{
+			border:1px solid #000;
+			background-color: #CCC;
+			width:300px;
+			height:100px;
+			resize:none;
+		}
+		
+		input[type=text]:focus, textarea:focus{
+			background-color:#CCC;
+			border:1px solid #F3O;
+		}
+		
+		input [type=reset], input [type=submit]{
+			background-color:#333;
+			color:#fff;
+			padding:10px;
+			border:none;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<fieldset>
+    <legend>Cadastro de Alunos</legend>
+	<form name="test">
+        	<p><label>Nome:</label> <input type="text" name="nome" placeholder="Digite seu nome"></p>
+            <p><label>Endereço:</label>
+            	<select name="tipo">
+                	<option value="Rua">Rua</option>
+                    <option value="Praça">Praça</option>
+                    <option value="Avenida">Avenida</option>
+                    <option value="Travessa">Travessa</option>
+                </select>
+                 <input type="text" name="endereco" placeholder="digite seu enredeço"></p>
+                 
+             <p><label>Numero:</label><input type="text" name="numero"></p>
+             
+             <p><label>Bairro:</label> <input type="text" name="bairro"></p>
+             
+             <p><label>Cidade:</label> <input type="text" name="cidade" placeholder="Digite seu bairro"></p>
+             
+             <p><label>Estado:</label>
+            	<select name="tipo">
+                	<option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                    <option value="RJ">RJ</option>
+                </select></p>
+                
+             <p><label>CEP:</label> <input type="text" name="cep"></p>
+             
+             <p><label>Telefone:</label> <input type="text" name="telefone"></p>
+             
+             <p><label>E-mail:</label> <input type="text" name="email"></p>
+             
+             <p><label>Estado Civil:</label>
+             	<select name="civil">
+                	<option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Viuvo">Viuvo</option>
+                </select></p>
+                
+             <p><label>Sexo:</label> 
+             	<input type="radio" name="sexo" value="masculino">Masculino 
+                <input type="radio" name="sexo" value="feminino">Feminino</p>
+             
+             <p><label>Curso Atual:</label>
+             	<select name="curso">
+                	<option value="informatica">Informatica</option>
+                    <option value="Informatica para internet">Informatica para internet</option>
+                    <option value="Automação">Automação</option>
+                    <option value="Eletronica">Eletrônica</option>
+                    <option value="Eletrotecnica">Eletrotécnica</option>
+                    <option value="Mecatronica">Mecatrônica</option>
+                    <option value="Manutençao e Suporte">Manutenção e Suporte</option>
+                </select></p>
+             
+             <p><label>Cursos realizados</label> 
+             	<input type="checkbox" name="curso1" value="informática">Informática
+              	<input type="checkbox" name="curso2" value="Informática para internet">Informatica para internet
+                <input type="checkbox" name="curso3" value="Automação">Automação
+                <input type="checkbox" name="curso4" value="Eletrônica">Eletrônica
+                <input type="checkbox" name="curso5" value="Eletrotécnica">Eletrotécnica
+                <input type="checkbox" name="curso6" value="Mecatrônica">Mecatrônica
+                <input type="checkbox" name="curso7" value="Manutenção e Suporte">Manutenção e Suporte</p>
+                 
+             <p><label>Comentario</label><textarea name="comentario"></textarea></p>     
+             
+             <p> <input type="submit" name="Btnlimpar" value="Limpar">  
+                 <input type="submit" name="Btnenviar" value="Enviar"></p>
+   
+    </form>
+    </fieldset>
+</body>
+</html>
